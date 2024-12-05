@@ -176,7 +176,4 @@ public class Step_1through6 {
 		// TODO Auto-generated method stub
 		System.out.println("Result is " + (list.get(list.size() - 1) - (list.get(0))));
 	}
-
-
-
 }
