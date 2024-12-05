@@ -139,8 +139,7 @@ public class Step_1through6 {
 		System.out.println("Last element in ages: " + ages.get(ages.size() - 1));
 
 		/*
-		 * 4. How do you access the first element of any array? 
-		 * Use list.get(0); For
+		 * 4. How do you access the first element of any array? Use list.get(0); For
 		 * example:
 		 */
 		System.out.println("First element in ages: " + ages.get(0));

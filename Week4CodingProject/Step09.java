@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Step09 {
-	
+
 	public static void main(String[] args) {
 
 		// Create basic array of numbers.
@@ -25,7 +25,7 @@ public class Step09 {
 		boolean result = isSumGreaterThan100(numbers);
 		System.out.println("Is the sum greater than 100? " + result); // Output: true
 	}
-	
+
 	public static boolean isSumGreaterThan100(List<Integer> numbers) {
 
 		// Create variable to store sum of numbers.

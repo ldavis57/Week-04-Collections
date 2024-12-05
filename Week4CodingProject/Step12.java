@@ -8,16 +8,16 @@ package Week4CodingProject;
 public class Step12 {
 
 	public static void main(String[] args) {
-		
+
 		// Test the method
 		boolean isHotOutside = true;
 		double moneyInPocket = 5.00;
-		
+
 		boolean result = willBuyDrink(isHotOutside, moneyInPocket);
 		System.out.println("Will buy drink? " + result); // Output: true
-		}
+	}
 
-    public static boolean willBuyDrink(boolean isHotOutside, double moneyInPocket) {
-        return isHotOutside && moneyInPocket > 10.50;
-    }
+	public static boolean willBuyDrink(boolean isHotOutside, double moneyInPocket) {
+		return isHotOutside && moneyInPocket > 10.50;
+	}
 }

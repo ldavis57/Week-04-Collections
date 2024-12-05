@@ -19,7 +19,7 @@ public class Step08 {
 		String fullName = createFullName(firstName, lastName);
 		System.out.println("Full Name: " + fullName); // Output: Full Name: John Doe
 	}
-	
+
 	private static String createFullName(String firstName, String lastName) {
 
 		StringBuilder fullNameBuilder = new StringBuilder();

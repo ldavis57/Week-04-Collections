@@ -20,7 +20,7 @@ public class Step07 {
 		// Use StringBuilder for efficient string concatenation
 		StringBuilder repeatedWord = new StringBuilder();
 
-		// Loop to add word n times to repeatedWord. 
+		// Loop to add word n times to repeatedWord.
 		for (int i = 0; i < n; i++) {
 			repeatedWord.append(word);
 		}
