@@ -1,11 +1,11 @@
 package Week4CodingProject;
 
-import java.util.ArrayList;
-
-/* Write a method that takes two arrays of double and returns 
+/* 11. Write a method that takes two arrays of double and returns 
  * true if the average of the elements in the first array is greater 
  * than the average of the elements in the second array.
  */
+
+import java.util.ArrayList;
 
 import java.util.List;
 

@@ -1,9 +1,7 @@
 package Week4CodingProject;
 
-import java.sql.Array;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
 
 public class Step_1through6 {
 
@@ -173,7 +171,6 @@ public class Step_1through6 {
 	// 2.b.iii Method that takes an ArrayList of any size and returns the correct
 	// value
 	private static void calculateDiff(List<Integer> list) {
-		// TODO Auto-generated method stub
 		System.out.println("Result is " + (list.get(list.size() - 1) - (list.get(0))));
 	}
 }
